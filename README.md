@@ -62,3 +62,17 @@ git log
 ```
 git status
 ```
+
+
+# Удаленный репозиторий
+## Синхронизация локального и удалённого репозиториев
+```
+git remote add origin https://github.com/YandexPracticum/first-project.git — привяжи локальный репозиторий к удалённому с URL https://github.com/YandexPracticum/first-project.git;
+git remote -v — проверь, что репозитории действительно связались;
+git push -u origin main — в первый раз загрузи все коммиты из локального репозитория в удалённый с названием origin.
+git push — загрузи коммиты в удалённый репозиторий после того, как он был привязан с помощью флага -u.
+```
+## Клонирование
+```
+git clone git@github.com:TheGreatOwner/the-great-project.git
+```
